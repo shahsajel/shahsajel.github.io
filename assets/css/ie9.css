@@ -1,33 +1,41 @@
 /*
-	Landed by HTML5 UP
+	Identity by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Loader */
+/* Basic */
 
-	body.landing:before, body.landing:after {
-		display: none !important;
+	body {
+		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom center;
+		background-attachment: fixed;
 	}
 
-/* Icon */
+		body:after {
+			display: none;
+		}
 
-	.icon.alt {
-		color: inherit !important;
+/* List */
+
+	ul.icons li a:before {
+		color: #c8cccf;
 	}
 
-	.icon.major.alt:before {
-		color: #ffffff !important;
+	ul.icons li a:hover:before {
+		color: #ff7496;
 	}
 
-/* Banner */
+/* Wrapper */
 
-	#banner:after {
-		background-color: rgba(23, 24, 32, 0.95);
+	#wrapper {
+		text-align: center;
 	}
 
-/* Footer */
+/* Main */
 
-	#footer .icons .icon.alt:before {
-		color: #ffffff !important;
+	#main {
+		display: inline-block;
 	}
