@@ -369,7 +369,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #414f57;
+			color: #99D5C1;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
